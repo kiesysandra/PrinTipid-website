@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrinTipid | Print more. Gastos less.</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="brand" href="#home"><span class="brand-mark">▣</span> print tipid<span class="brand-dot">.</span></a>
+    <nav>
+      <a href="#services">Services</a><a href="#how-it-works">How to order</a>
+      <a href="#prices">Print guide</a><a href="#faq">FAQs</a>
+    </nav>
+    <a class="nav-cta" href="#order">Let's print <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero page-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR EVERYDAY, BUDGET-FRIENDLY PRINT SHOP</p>
+        <h1>Print more.<br><span>Gastos less.</span></h1>
+        <p class="muted">From school requirements to work essentials. Get the prints you need, without the extra gastos.</p>
+        <div class="button-row"><a class="btn primary" href="#order">Get your print quote ↗</a><a class="btn secondary" href="#services">Explore services</a></div>
+        <p class="tiny">✓ Good for school. Good for your wallet.</p>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=85" alt="Paper and notebook on a desk">
+        <span class="image-note">PRINT SMART, NOT MORE.</span><span class="sticker">TIPID<br>MODE: ON</span>
+      </div>
+    </section>
+
+    <div class="ticker"><span>Less hassle. More ready-to-go.</span><span>✦ Black & white or color　 ✦ A4 · Short · Long　 ✦ For school, work & more</span></div>
+
+    <section class="section page-pad" id="services">
+      <div class="section-top"><div><p class="eyebrow">01 / WHAT WE DO</p><h2>Big requirement?<br>Small task? Kaya 'yan.</h2></div><p class="muted section-intro">A few pages or a whole project. Choose the print essentials that work for your needs and budget.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon blue">▤</span><h3>Black & white</h3><p>The practical pick for everyday documents and school requirements.</p><small>Notes · PDFs · Readings</small></article>
+        <article class="service-card"><span class="service-icon mint">▧</span><h3>Color printing</h3><p>For colorful slides, visuals, and important materials that need to pop.</p><small>Reports · Presentations · Posters</small></article>
+        <article class="service-card"><span class="service-icon pink">▣</span><h3>Photocopying</h3><p>Need another copy? Reproduce your printed documents for easy sharing.</p><small>Handouts · Records · Documents</small></article>
+        <article class="service-card"><span class="service-icon yellow">▥</span><h3>Finishing touches</h3><p>Keep your papers together with simple finishing options.</p><small>Stapling · Order sorting</small></article>
+      </div>
+      <div class="price-strip" id="prices"><span>STARTING PRICES</span><span>B&W <b>₱2/page</b></span><span>Color <b>₱5/page</b></span><span>Photocopy <b>₱1/page</b></span><a href="#order">See estimate below ↗</a></div>
+    </section>
+
+    <section class="dark-band page-pad">
+      <div><p class="eyebrow">02 / THE TIPID PROMISE</p><h2>Tipid sa gastos.<br><span>Hindi sa care.</span></h2><p class="muted">Good printing starts with the right choice. We help you pick practical options, page by page.</p><div class="color-dashes"><i></i><i></i><i></i><i></i></div></div>
+      <div class="promise-list"><article><span>▣</span><div><h3>Know your total before we print.</h3><p>View an estimate based on your page count, copies, and print choices.</p></div></article><article><span>▤</span><div><h3>Choose what you actually need.</h3><p>Pick a service that fits your task. Color for key visuals, black-and-white for everyday notes.</p></div></article><article><span>▧</span><div><h3>Keep the process simple.</h3><p>Share your request and review your details before moving to the next step.</p></div></article></div>
+    </section>
+
+    <section class="section page-pad">
+      <p class="eyebrow">03 / FOR YOUR EVERYDAY</p><h2>Everyday needs.<br>Meet everyday prints.</h2>
+      <div class="use-grid">
+        <article><img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=700&q=80" alt="Notebook and paper"><h3>Campus ready.</h3><p>Reviewers, readings, worksheets, and that final project.</p></article>
+        <article><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=700&q=80" alt="Documents and books"><h3>Workday sorted.</h3><p>Forms, reports, and the everyday documents you need.</p></article>
+        <article><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=80" alt="Creative work on paper"><h3>Ideas on paper.</h3><p>Simple printouts for projects, plans, and creative work.</p></article>
+      </div>
+    </section>
+
+    <section class="steps-band page-pad" id="how-it-works">
+      <p class="eyebrow">04 / HOW TO ORDER</p><div class="section-top"><h2>From file to finished.<br>Simple lang.</h2><p class="muted">No complicated steps. Just your file, your preferences, and a little confirmation.</p></div>
+      <div class="steps-grid"><article><strong>01</strong><h3>Send your file.</h3><p>Choose your file and tell us the type of print, size, color, and copies you need.</p></article><article><strong>02</strong><h3>Confirm the details.</h3><p>Review your print options, estimated price, and customer information.</p></article><article><strong>03</strong><h3>We print. You're set.</h3><p>In this school prototype, your request is summarized for review. Actual printing is handled separately.</p></article></div>
+    </section>
+
+    <section class="section page-pad" id="order">
+      <div class="section-top order-heading"><div><p class="eyebrow">05 / READY TO PRINT?</p><h2>Ready file.<br>Smoother printing.</h2><p class="muted">Fill in the form to prepare a printing request and calculate an estimate.</p></div><div class="mini-tips"><b>✓ Save as PDF</b><p>PDF files usually preserve layout.</p><b>✓ Review every page</b><p>Check your document before submitting.</p><b>✓ Match your paper size</b><p>Choose the paper size you need.</p></div></div>
+
+      <div class="order-layout">
+        <form id="order-form" novalidate>
+          <div class="form-section"><div class="form-section-head"><span>01</span><div><h3>Customer & requester information</h3><p>Provide only the information needed for this demo request.</p></div><small>STEP 1 OF 4</small></div>
+            <label for="customer-type">Customer type *</label><div class="choice-row">
+              <label class="choice"><input type="radio" name="customer-type" value="Student" checked> Student</label>
+              <label class="choice"><input type="radio" name="customer-type" value="Teacher / Instructor"> Teacher / Instructor</label>
+              <label class="choice"><input type="radio" name="customer-type" value="Admin & Staff"> Admin & Staff</label>
+            </div>
+            <div class="two-col"><div><label for="full-name">Full name *</label><input id="full-name" placeholder="Enter your full name"></div><div><label for="customer-id">Student / employee ID <small>Optional</small></label><input id="customer-id" placeholder="ID (optional)"></div></div>
+            <div id="student-fields" class="two-col"><div><label for="course">Course / year / section *</label><input id="course" placeholder="e.g. BSIT, 3rd Year - A"></div><div><label for="building">Room / building <small>Optional</small></label><input id="building" placeholder="e.g. IT Building, Room 204"></div></div>
+            <div id="staff-fields" hidden><label for="department">Department / office *</label><input id="department" placeholder="e.g. IT Department"></div>
+            <label for="contact">Contact number or email <small>Optional</small></label><input id="contact" placeholder="For updates, if needed">
+          </div>
+
+          <div class="form-section"><div class="form-section-head"><span>02</span><div><h3>Document & file attachment</h3><p>Select the document you want to print. The demo only reads its name locally.</p></div><small>STEP 2 OF 4</small></div>
+            <label class="upload-box" for="document-file"><span class="upload-symbol">⇧</span><strong>Click to browse files or choose a file</strong><small>PDF, DOC, DOCX, PNG, JPG · Max 10 MB</small><input id="document-file" type="file" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"></label>
+            <div class="file-line"><span>▤ <span id="file-name">No file selected</span></span><button type="button" class="text-button" id="remove-file">Remove</button></div>
+            <p class="privacy-note">For privacy, do not use confidential documents in your class demo. This prototype does not upload files to a server.</p>
+          </div>
+
+          <div class="form-section"><div class="form-section-head"><span>03</span><div><h3>Printing services & job specifications</h3><p>Choose your print type and adjust the details.</p></div><small>STEP 3 OF 4</small></div>
+            <label>Select service package *</label><div class="service-options">
+              <label class="service-option"><input type="radio" name="service" value="Black-and-white printing" checked><b>Black & white</b><strong>₱2.00 <small>/ page</small></strong><small>Everyday documents</small></label>
+              <label class="service-option"><input type="radio" name="service" value="Colored printing"><b>Color printing</b><strong>₱5.00 <small>/ page</small></strong><small>Slides and visuals</small></label>
+              <label class="service-option"><input type="radio" name="service" value="Photocopy"><b>Photocopy</b><strong>₱1.00 <small>/ page</small></strong><small>Extra document copies</small></label>
+              <label class="service-option"><input type="checkbox" id="stapling"><b>Stapling</b><strong>₱3.00 <small>/ job</small></strong><small>Optional finishing</small></label>
+            </div>
+            <div class="three-col"><div><label for="paper-size">Paper size</label><select id="paper-size"><option>A4</option><option>Short (Letter)</option><option>Long (Legal)</option></select></div><div><label for="pages">Pages *</label><input id="pages" type="number" min="1" step="1" value="1"></div><div><label for="copies">Copies *</label><input id="copies" type="number" min="1" step="1" value="1"></div></div>
+            <label for="instructions">Special instructions <small>Optional</small></label><textarea id="instructions" placeholder="e.g. single-sided, staple top-left, arrange by page"></textarea>
+          </div>
+
+          <div class="form-section"><div class="form-section-head"><span>04</span><div><h3>Claiming & delivery preference</h3><p>Choose how you would prefer to receive the printed materials.</p></div><small>STEP 4 OF 4</small></div>
+            <div class="choice-row delivery-row"><label class="choice"><input type="radio" name="delivery" value="Campus pickup" checked> Campus pickup <small>Recommended</small></label><label class="choice"><input type="radio" name="delivery" value="Campus room / office delivery"> Campus room / office delivery <small>Subject to availability</small></label></div>
+            <p class="privacy-note">Delivery is a preference only in this prototype. No real printing, payment, or delivery is booked.</p>
+          </div>
+          <div class="form-actions"><button type="button" class="btn secondary" id="calculate-btn">Calculate estimate</button><button type="submit" class="btn primary">Review printing request ↗</button><button type="reset" class="btn plain">Clear form</button></div>
+          <p id="form-message" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="summary-panel">
+          <div class="summary-head"><div><p class="eyebrow">LIVE ESTIMATE</p><h3>Order summary</h3></div><span class="status-pill">Not submitted</span></div>
+          <p class="muted">Estimated total</p><div class="total-price" id="live-total">₱2.00</div><p class="muted small" id="price-equation">1 page × 1 copy × ₱2.00</p>
+          <div class="summary-divider"></div><div class="summary-item"><span>Selected service</span><b id="live-service">Black & white</b></div><div class="summary-item"><span>Pages / copies</span><b id="live-quantity">1 page / 1 copy</b></div><div class="summary-item"><span>Paper size</span><b id="live-paper">A4</b></div><div class="summary-item"><span>Finishing</span><b id="live-finishing">None</b></div><div class="summary-item"><span>Claiming</span><b id="live-delivery">Campus pickup</b></div>
+          <div class="estimate-note">✓ <span><b>Estimated turnaround</b><br><small>Actual timing must be confirmed by the print shop.</small></span></div>
+          <button type="button" class="btn primary full" id="summary-submit">Review request ↑</button>
+          <div id="final-summary" hidden><div class="summary-divider"></div><h3>Request review</h3><pre id="summary-text"></pre><p class="privacy-note">Demo only — request not saved to a database.</p></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="faq-band page-pad" id="faq"><div><p class="eyebrow">06 / NEED A LITTLE HELP?</p><h2>Small questions.<br>Clear answers.</h2><p class="muted">Not sure which file or print option to pick? Here are some quick answers.</p></div><div class="faq-list"><details><summary>How much will my printing cost?</summary><p>Use the estimate form. Total = pages × copies × price per page, plus optional stapling.</p></details><details><summary>Can I print just a few pages?</summary><p>Yes, this demo accepts any whole-number page and copy quantity starting from 1.</p></details><details><summary>What file should I send?</summary><p>PDF is recommended to preserve layout. The form also accepts common document and image file types.</p></details><details><summary>Can you accommodate a rush order?</summary><p>This is a school prototype, so availability and turnaround must be confirmed separately.</p></details></div></section>
+
+    <section class="bottom-cta page-pad"><div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Your next print?<br><span>Dito na.</span></h2><p>Make your file fit your task and your budget.</p><a class="btn light" href="#order">Prepare my print ↗</a></div><div class="receipt"><small>YOUR PRINT TIPID CHECKLIST</small><h3>Hi PrinTipid!</h3><p>☑ Attach your file<br>☑ Choose print type<br>☑ Number of pages & copies<br>☑ Review & submit request</p><small>ESTIMATE FIRST. PRINT SMART.</small></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">▣</span> print tipid<span class="brand-dot">.</span></a><p>Practical prints. Para sa araw-araw.</p><div><a href="#services">Services</a><a href="#order">Place an order</a><a href="#faq">FAQs</a></div><small>© 2026 PrinTipid · Student project prototype</small></footer>
+
+  <script type="py" src="./main.py"></script>
+</body>
+</html>
