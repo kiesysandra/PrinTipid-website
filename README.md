@@ -26,13 +26,4 @@ A responsive school-project website inspired by our PrinTipid design: cream/blue
 - Campus pickup or delivery preference
 - Clear form button and FAQ section
 
-## Important limitations
-This is a browser-only prototype. Selecting a file does **not** upload it to staff. Requests are not saved to a database, and no real printing, payment, or delivery occurs. Do not enter real private information or use confidential files for the public class demo.
-
-## Suggested team contributions
-Use each member's own GitHub account to commit meaningful changes. Example: design/CSS, PyScript calculator, form validation, testing/README, and final integration. Replace this section with your team's actual work.
-
-## Price calculation
-`total = pages × copies × price per page + optional stapling fee`
-
-Example: 10 B&W pages × 2 copies × ₱2 = ₱40.
+## ambot ani sir oy, wanako katabot 
